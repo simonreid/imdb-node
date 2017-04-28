@@ -17,7 +17,7 @@ describe("Basic Server Functionality", function() {
         //check response
         assert.equal(200, response.statusCode);
         //ensure first item has a title as a quick test
-        assert.notEqual(JSON.parse(body).results.data, null);
+        assert.notEqual(JSON.parse(body).title, null);
         app.closeServer();
         done();
       });

@@ -9,10 +9,10 @@ Leverages imdb-api for requests:
 https://www.npmjs.com/package/imdb-api
 
 General Development process:
-Created back-end with express routing to retrieve a single Movie from IMDB using the imdb-api with a single criterion, 'name'
-Create front-end with AngularJS to request results from Node server and render them with Bootstrap
-Extended search functionality for Year and IMDB ID
-Basic testing and front-end cleanup/styling
+* Created back-end with express routing to retrieve a single Movie from IMDB using the imdb-api with a single criterion, 'name'
+* Create front-end with AngularJS to request results from Node server and render them with Bootstrap
+* Extended search functionality for Year and IMDB ID
+* Basic testing and front-end cleanup/styling
 
 ## 1. Clone the app
 
