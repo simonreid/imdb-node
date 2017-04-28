@@ -6,7 +6,7 @@ const imdbApi = require('imdb-api');
 /**
  * getReq
  * use imdb api to request search results
- * returns either a movie or an episode object
+ * returns either a movie or episode object
  *
  * @param api_config
  * @param searchObject:
