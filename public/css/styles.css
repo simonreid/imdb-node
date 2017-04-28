@@ -1,0 +1,41 @@
+@font-face { font-family: nasa; src: url('../fonts/nasalization-rg.ttf'); }
+#menu-title {
+  font-family: nasa;
+}
+
+.img-responsive-height
+{
+  display: block;
+  width: auto;
+  max-height: 100%
+}
+
+/*
+hide selected elements until templates compile
+ */
+[ng\:cloak], [ng-cloak], .ng-cloak {
+    display: none !important;
+}
+
+.content {
+    padding-left: 220px;
+    position: relative;
+}
+
+.content img {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    float: left;
+    max-width: 200px;
+    padding-right: 15px;
+}
+
+#title{
+    margin-top:0px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
