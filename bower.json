@@ -15,6 +15,7 @@
     "test",
     "tests"
   ],
+  "directory":"./public/",
   "dependencies": {
     "lodash": "^4.17.4",
     "angular": "^1.6.2",

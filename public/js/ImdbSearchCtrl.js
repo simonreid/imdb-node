@@ -60,6 +60,7 @@ angular.module('IMDBSearchCtrl',[])
     $scope.resetCriteria = function() {
       $scope.searchCriteria = {name:''};//reset to default
       $scope.results = [];
+      $scope.errorMsg = undefined;
     };
 
     $scope.addCriterion = function(type){
